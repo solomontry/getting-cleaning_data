@@ -1,6 +1,4 @@
 ### Download and unzip the files
-
-
 url = "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 if (!file.exists("./UCI_HAR_Dataset.zip")){
   download.file(url, destfile = "./UCI_HAR_Dataset.zip",mode = "wb",method = "curl")
