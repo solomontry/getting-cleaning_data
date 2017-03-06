@@ -13,7 +13,15 @@ Run_analysis.R performs downloading, cleaning and generating new tidy data sets.
 1. Download and unzip the files UCI_HAR_Dataset.zip 
 
 2. Read train and test data and merge these two together. First is to read the following txt files into R. 
-`X_train.txt`
+ - subject_train.txt
+ - x_train.txt
+ - y_train.txt
+ - subject_test.txt
+ - x_test.txt
+ - y_test.txt
+ - features.txt
+ - activity_labels.txt
+ 
 Three data `activity`,`subject`, `feature` are generated in the middle and merged into the final dataset `datafinal`. 
 
 3. Extract only the measurements on the mean and standard deviation for each measurement. This step generates `subdata` dataset, which includes the subject, activity and mean and standard deviation for each measurement.
